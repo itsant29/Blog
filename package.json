@@ -1,7 +1,6 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "gh-pages": "^2.1.1"
@@ -11,5 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Antoinette Hall",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsant29/blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsant29/blog/issues"
+  },
+  "homepage": "https://github.com/itsant29/blog#readme",
+  "description": ""
 }
