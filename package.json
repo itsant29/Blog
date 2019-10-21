@@ -2,12 +2,10 @@
   "name": "blog",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "gh-pages": "^2.1.1"
-  },
-  "devDependencies": {},
+  "homepage": "https://github.io/itsant29/blog",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Antoinette Hall",
   "license": "ISC",
@@ -18,6 +16,8 @@
   "bugs": {
     "url": "https://github.com/itsant29/blog/issues"
   },
-  "homepage": "https://github.com/itsant29/blog#readme",
-  "description": ""
+  "dependencies": {},
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
